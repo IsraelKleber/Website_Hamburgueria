@@ -1,0 +1,382 @@
+main{
+    background-color: #FFE6C1;
+}
+.cabeçalho{
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+    background: #FFB800;
+}
+img{
+    position: absolute;
+    width: 95px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+}
+.idiomaEstadosUnidos{
+    position: absolute;
+    width: 72px;
+    height: 70px;
+    left: 800px;
+    top: 3px;
+    border-radius: 100px;
+}
+.p1{
+    position: absolute;
+    width: 333px;
+    height: 78px;
+    left: 200px;
+    top: -2px;
+    
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'onum' on, 'cpsp' on;
+    
+    color: #5F150C;
+}
+.img1{
+    position: absolute;
+    width: 72px;
+    height: 70px;
+    left: 1000px;
+    top: 5px;
+}
+.img2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1266px;
+    top: 5px;
+}
+.img3{
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    left: 0px;
+    top: 78px;
+}
+.img4{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 510px;
+    top: 17px;
+}
+.secaoprodutos{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 388px;
+    background: #F80000;
+}
+.secaoprodutosP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 600px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
+body {
+    margin: 0;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #5F150C;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 25px;
+    padding-right: 15px;
+    margin: 35px 0px 0px 0px;
+}
+
+.secaopasteis{
+    position: absolute;
+    width: 1366px;
+    height: 35px;
+    left: 0px;
+    top: 937px;
+    background: #F80000;
+}
+.secaopasteisP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 630px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
+
+
+
+#planos {
+    padding: 0px 0;
+}
+article {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 300px;
+    float: left;
+    margin: 400px 0px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+article > section {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+article ul li {
+    text-align: center;
+    font-size: 20px;
+    
+}
+article ul li img {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    top: -30px;
+    left: -10px;
+    border-radius: 10px;
+}
+
+article > footer {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.botao:hover, .botao:focus {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+
+.icone{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: -30px;
+    border-radius: 10px;
+}
+.botaocarrinho {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 50px 0px 50px 480px;
+}
+.botao1{
+    display: inline-block;
+    background-color: #D62300;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    margin: -5px 0px 0px -65px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.article{
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 322px;
+    float: left;
+    margin: 405px 0px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.article1 {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 322px;
+    float: left;
+    margin: 30px 0px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.quantidade{
+    padding: 11px 20px;
+    border: 1px solid #95a4a5;
+    width: 10px;
+    float: right;
+    margin: -42px 45px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    color: red;
+}
+
+.secaobebidas{
+    position: absolute;
+    width: 1366px;
+    height: 35px;
+    left: 0px;
+    top: 1499px;
+    background: #F80000;
+}
+.secaobebidasP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 630px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+.secaobatatas{
+    position: absolute;
+    width: 1366px;
+    height: 35px;
+    left: 0px;
+    top: 2510px;
+    background: #F80000;
+}
+.secaobatatasP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 620px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+.rodape{
+    position: absolute;
+    width: 1367px;
+    height: 124px;
+    left: 2px;
+    top: 2681px;
+    margin-top: 370px;
+}
+#pesquisa::-webkit-input-placeholder{
+    color: #5F150C;
+    font-size: 22px;
+}
+.idade{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 550px;
+    top: 12px;
+    background-color: #FFB800;
+    border-radius: 50px;
+    font-size: 25px;
+    border: 1px solid #5F150C;
+
+
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'onum' on, 'cpsp' on;
+    color: #5F150C;
+}
+#cardapio  {
+    margin: 13px 694px 0px 560px;
+}
+.botao1:hover, .botao1:focus {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+.caret{
+   color: #5F150C;
+}
+#card{
+    background-color: #FFB800;
+    border: 1px solid #5F150C;
+    border-radius: 50px;
+    padding: 10px 30px;
+    
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5F150C;
+}
+.promocao{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 358px;
+    background: #FFB800;
+}
+.promocaoP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 560px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: white;
+}
+.promocaoP:hover, .promocaoP:focus {
+    text-decoration: none;
+    color: #5F150C;
+}

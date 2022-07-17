@@ -1,0 +1,487 @@
+main{
+    background-color: #FFE6C1;
+}
+.cabeçalho{
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+    background: #5F150C;
+}
+.p1{
+    position: absolute;
+    width: 333px;
+    height: 78px;
+    left: 540px;
+    top: -2px;
+    
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'onum' on, 'cpsp' on;
+    
+    color: white;
+}
+.idiomaBrasil{
+    position: absolute;
+    width: 62px;
+    height: 60px;
+    left: 1200px;
+    top: 5px;
+    border-radius: 100px;
+}
+.secaoprodutos{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 100px;
+    background: rgba(208, 205, 187, 0.24);
+}
+.secaoprodutosP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 500px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: black;
+}
+body {
+    margin: 0;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #5F150C;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 25px;
+    padding-right: 15px;
+    margin: 35px 0px 0px 0px;
+}
+
+.secaopasteis{
+    position: absolute;
+    width: 1366px;
+    height: 35px;
+    left: 0px;
+    top: 937px;
+    background: #F80000;
+}
+.secaopasteisP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 630px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
+
+
+
+#planos {
+    padding: 0px 0;
+}
+article {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 300px;
+    float: left;
+    margin: 400px 0px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+article > section {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+article ul li {
+    text-align: center;
+    font-size: 20px;
+    
+}
+article ul li img {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    top: -30px;
+    left: -10px;
+    border-radius: 10px;
+}
+
+article > footer {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.botao:hover, .botao:focus {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+
+.icone{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: -30px;
+    border-radius: 10px;
+}
+.botaocarrinho {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 50px 0px 50px 480px;
+}
+.botao1{
+    display: inline-block;
+    background-color: #D62300;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    margin: -5px 0px 0px -65px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.article{
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 322px;
+    float: left;
+    margin: 405px 0px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.article1 {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 322px;
+    float: left;
+    margin: 30px 0px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.quantidade{
+    padding: 11px 20px;
+    border: 1px solid #95a4a5;
+    width: 10px;
+    float: right;
+    margin: -42px 45px 0px 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    color: red;
+}
+
+.secaobebidas{
+    position: absolute;
+    width: 1366px;
+    height: 35px;
+    left: 0px;
+    top: 1499px;
+    background: #F80000;
+}
+.secaobebidasP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 630px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+.secaobatatas{
+    position: absolute;
+    width: 1366px;
+    height: 35px;
+    left: 0px;
+    top: 2507px;
+    background: #F80000;
+}
+.secaobatatasP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 620px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+.rodape{
+    position: absolute;
+    width: 1367px;
+    height: 124px;
+    left: 2px;
+    top: 771px;
+    margin-top: 370px;
+}
+#pesquisa::-webkit-input-placeholder{
+    color: #5F150C;
+    font-size: 22px;
+}
+.idade{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 550px;
+    top: 12px;
+    background-color: #FFB800;
+    border-radius: 50px;
+    font-size: 25px;
+    border: 1px solid #5F150C;
+
+
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'onum' on, 'cpsp' on;
+    color: #5F150C;
+}
+#cardapio  {
+    margin: 13px 694px 0px 560px;
+}
+.botao1:hover, .botao1:focus {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+.caret{
+   color: #5F150C;
+}
+#card{
+    background-color: #FFB800;
+    border: 1px solid #5F150C;
+    border-radius: 50px;
+    padding: 10px 30px;
+    
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5F150C;
+}
+.promocao{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 68px;
+    background: red;
+}
+.promocaoP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 520px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: white;
+}
+.conferencia{
+    margin: 20px 0px 0px 50px;
+    font-family:  Calibri;
+    font-weight: bold;
+    font-size: 25px;
+}
+.botaocarrinho {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 50px 0px 50px 550px;
+}
+.botao1{
+    display: inline-block;
+    background-color: #D62300;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    margin: -5px 0px 0px -65px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.retirada{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 600px;
+    background: red;
+}
+.retiradaP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 470px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: white;
+}
+.retirada1{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 50px;
+    top: 50px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: black;
+}
+.pagamento{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 800px;
+    background: red;
+}
+.pagamentoP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 470px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: white;
+}
+.pagamento1{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 50px;
+    top: 50px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: black;
+}
+.final{
+    position: absolute;
+    width: 1366px;
+    height: 30px;
+    left: 0px;
+    top: 1000px;
+    background: rgba(119, 119, 119, 0.24);
+}
+.finalP{
+    position: absolute;
+    width: 554px;
+    height: 38px;
+    left: 50px;
+    top: -3px;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: black;
+}
+.finalizarcompra {
+    display: inline-block;
+    color: green;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 1040px 0px 50px 600px;
+}
+.finalizarcompra1{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    margin: -5px 0px 0px -65px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.finalizarcompra1:hover, .finalizarcompra1:focus {
+    text-decoration: none;
+    background-color: #00FF00;
+    color: white;
+}
